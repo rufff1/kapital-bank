@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+span{
+    cursor: pointer;
+}
+
+.header .red{
+    color: red;
+}
+.menu{
+    background-color: #E8ECF1;
+    padding: 20px 0;
+}
+
+.menu span{
+    font-size: 13px;
+    
+}
+
+.menu .btn{
+    color:white;
+    background-color:#EF3E42;
+    font-size: 15px;
+    padding: 2px 30px;
+    
+}
+
+.main-corusel{
+    background-color: #E8ECF1;
+   
+}
+.main-corusel .btn{
+    color:white;
+    background-color:#ef4c4f;
+    font-size:20px;
+    padding: 12px 100px;
+    
+}
+.main-corusel .img{
+    transition: .5s;
+}
+.main-corusel .img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.calcu .btn{
+    color:white;
+    background-color:#ef4c4f;
+    font-size:20px;
+    padding: 12px 100px;
+    
+}
+
+.calcu h3 span{
+    color:#ef4c4f;
+}
+
+
+
+
+
+
+
+#amount{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 25px;
+    
+   
+}
+
+#period{
+        margin-top: 50px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        outline: none;
+        font-size: 25px;
+        display: block;
+       
+}
+
+#interest-rate{
+        margin-top: 50px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        outline: none;
+        font-size: 25px;
+        
+}
+
+.action i{
+    color: #ef4c4f;
+}
+
+.action .box{
+    border: 1px solid rgb(249, 245, 245);
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 3px 4px #f5f5f5;
+}
+
+.action .box:hover{
+    transform: scale(1.1);
+}
+
+.debet-card .card{
+    background-color:#E8ECF1 ;
+    border: none;
+}
+.debet-card .card .box .red{
+    color:#ef4c4f;
+}
+
+.debet-card .btn {
+    color:white;
+    background-color:#ef4c4f;
+    font-size:20px;
+    padding: 12px 100px;
+}
+.debet-card{
+    position: relative;
+}
+.debet-card p{
+    color:#595959;
+}
+.debet-card .img{
+    position: absolute;
+    right: 15%;
+    bottom: 10px;
+    width: 23%;
+}
+.request .txt p{
+    color:#595959;
+}
+
+.inbox{
+    background-color:#E8ECF1 ;
+    position: relative;
+
+}
+.inbox input{
+    padding: 15px 90px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+.inbox .btn{
+    color:white;
+    background-color:#ef4c4f;
+    font-size:20px;
+    padding: 12px 0;
+    width: 30%;
+}
+
+.inbox .img{
+    position: absolute;
+    left:30px;
+    top:-70%;
+    width: 30%;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about .left{
+    background-color: #E8ECF1;
+    padding-left: 13%;
+    margin-right: 5px;
+    padding-bottom: 12%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.about .right{
+    background-color: #EF3E42;
+    margin-left: 5px;
+    padding-left: 7%;
+    padding-bottom: 15%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.about span{
+    color:#ef4c4f
+}
+.about .img{
+    position: absolute;
+    width:35%;
+    right:18%;
+    bottom:0
+}
+
+.about span:hover{
+    color:rgb(113, 0, 0);
+}
+.news{
+    background-color: #E8ECF1;
+}
+.news .red-r{
+    color:#ef4c4f
+}
+.news .red-r:hover{
+    color:rgb(113, 0, 0);
+}
+
+.news .line{
+    height: 4px;
+    width: 95%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.news .all-box .time{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ef4c4f;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.news .time:hover{
+    background-color: #ef4c4f;
+    color: #fff;
+    
+}
+.news .box .txt:hover{
+    color:#ef4c4f;
+}
